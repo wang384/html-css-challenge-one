@@ -11,3 +11,9 @@ h1 {
     width: 800px;
     margin: 10px auto;
 }
+
+.wrapper::after {
+    display: table;
+    content: "";
+    clear: both;
+}
